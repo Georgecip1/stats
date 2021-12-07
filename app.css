@@ -148,7 +148,7 @@ body {
   border-radius: 10px;
   max-width: 100%;
   width: 35vh;
-  height: 82vh;
+
 }
 .imagine {
   background-color: hsl(277, 64%, 61%);
@@ -183,7 +183,7 @@ h1 {
 
 .text {
   background-color: hsl(244, 38%, 16%);
-  height: 62.3%;
+
   border-radius: 0 0 10px 10px;
   padding:2.2em;
 }
@@ -212,9 +212,7 @@ h1 {
 .listNames{
   padding:1em;
 }
-.attribution{
-  margin-top:5em;
-}
+
 .attribution a{
   text-decoration: none;
   color:hsl(277, 64%, 61%);
@@ -224,22 +222,21 @@ h1 {
   text-transform: uppercase;
 }
 .attribution {
-  color: hsla(0, 0%, 100%, 0.6)
-
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top:18em;
 }
 
 
-@media(min-width:600px){
+@media(min-width:870px){
 
   .card{
     display:flex;
     flex-direction: row-reverse;
     width: 100vh;
-    height: 40vh;
 
   }
   .imagine{
-    background-image: url(/images/image-header-desktop.jpg);
+    background-image: url("./images/image-header-desktop.jpg");
     width: 95vh;
     height: 40vh;
     background-size:cover;
@@ -249,15 +246,32 @@ h1 {
   .text{
     height:40vh;
     border-radius: 10px 0 0 10px;
+    display:flex;
+    flex-direction: column;
   }
   .about{
     text-align:left;
     padding:2em 3em 2em 3em;
   }
   .list{
-    display:flex;
+    padding-top:3em;
+    padding-left: 2em;
+    text-align: unset;
+    display:inline-flex;
   }
   h1{
     font-size: 30px;
+  }
+  .name{
+    padding-top:1em;
+  }
+  .number{
+    margin:0;
+  }
+  .about p{
+    padding-top:1em;
+  }
+  .attribution{
+    margin-top: 1em;
   }
 }
