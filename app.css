@@ -227,7 +227,7 @@ h1 {
 }
 
 
-@media(min-width:870px) and (min-height:883px){
+@media(min-width:870px){
 
   .card{
     display:flex;
